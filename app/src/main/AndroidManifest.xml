@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.adam.aslfms"
-    android:versionCode="48"
-    android:versionName="1.5.7">
+    package="com.adam.aslfms">
 
     <supports-screens
-        android:anyDensity="true"
         android:largeScreens="true"
-        android:normalScreens="true"
-        android:resizeable="true"
-        android:smallScreens="true"
         android:xlargeScreens="true" />
 
     <uses-feature
@@ -292,13 +286,6 @@
                 <action android:name="com.android.mediacenter.metachanged" />
             </intent-filter>
         </receiver>
-
-        <!--
-             - will probably interfere badly with Winamp <receiver android:name="com.adam.aslfms.receiver.LastFmAPIReceiver"
-            android:exported="true" android:enabled="true"> <intent-filter> <action android:name="fm.last.android.metachanged"
-            /> <action android:name="fm.last.android.playbackpaused" /> <action android:name="fm.last.android.playbackcomplete"
-            /> </intent-filter> </receiver>
-        -->
 
     </application>
 
