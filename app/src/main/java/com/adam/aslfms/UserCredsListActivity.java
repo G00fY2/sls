@@ -65,7 +65,7 @@ public class UserCredsListActivity extends AppCompatPreferenceActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        addPreferencesFromResource(R.xml.user_creds_list);
+        addPreferencesFromResource(R.xml.user_creds_list_prefs);
 
         settings = new AppSettings(this);
 
